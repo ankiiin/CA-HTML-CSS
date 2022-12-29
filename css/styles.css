@@ -88,3 +88,36 @@ main h1 {
     left: 26%;
     font-size: 1.5em;
 }
+
+/* Privacy page, terms page, accesibility page */
+
+main h1 {
+    position: relative;
+    padding: 10%;
+    left: 35%;
+    font-size: 2em;
+}
+
+/* Store page */
+
+
+
+main h1 {
+    position: relative;
+    padding: 0%;
+    left: 40%;
+}
+
+.sandvika, .storo {
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    padding: 0%;
+    left: 22%;
+}
+main h2 {
+    position: relative;
+    padding: 0%;
+    left: 26%;
+}
