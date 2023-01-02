@@ -4,25 +4,45 @@ h3 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.menu {
-    font-size: 2em;
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav ul {
-    padding: 0px;
-}
-
-
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
     background-repeat: no-repeat;
+}
+
+.menu {
+    font-size: 2em;
+}
+
+nav li {
+    display: inline;
+}
+
+.home_button {
+    position: relative;
+    left: 10cm;
+}
+
+.men_button {
+    position: relative;
+    left: 11cm;
+}
+
+.women_button {
+    position: relative;
+    left: 12cm;
+}
+
+.about_button {
+    position: relative;
+    left: 13cm;
+}
+
+.contact_button {
+    position: relative;
+    left: 14cm;
 }
 
 .menu, a, 
@@ -34,11 +54,47 @@ footer {
     position: relative;
 }
 
+.privacy_button {
+    position: relative;
+    left: 9cm;
+}
+
+.terms_button {
+    position: relative;
+    left: 10cm;
+}
+
+.accesibility_button {
+    position: relative;
+    left: 11cm;
+}
+
+.store_button {
+    position: relative;
+    left: 12cm;
+}
+
+.fa-facebook {
+    position: relative;
+    left: 20.7cm;
+}
+
+.fa-instagram {
+    position: relative;
+    left: 21cm;
+}
+
+.fa-pinterest {
+    position: relative;
+    left: 21.3cm;
+}
+
 /* Links */
 
 a {
     text-decoration: none;
 }
+
 
 /* Home Page */
 
@@ -60,7 +116,6 @@ a {
     background-repeat: no-repeat;
     width: 1425px;
     height: 500px;
-    bottom: 450px;
 }
 
 .popular_now {
@@ -131,7 +186,6 @@ a {
 }
 
 /* Contact page */
-
 input,
 select,
 textarea {
