@@ -1,7 +1,5 @@
-h1, 
-h2,
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+    
 }
 
 .menu {
@@ -62,6 +60,43 @@ a {
     bottom: 450px;
 }
 
+.popular_now {
+    position: relative;
+    right: 35%;
+    top: 50px;
+}
+
+.retro_jacket {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 360px;
+    padding: 5%;
+    top: 110px;
+}
+
+.hiker_jacket {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 400px;
+    bottom: 490px;
+    left: 35%;
+}
+
+.running_jacket {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 320px;
+    bottom: 1000px;
+    left: 70%;
+}
+
+.retro_text {
+    position: relative;
+    right: 3cm;
+    top: 60px;
+    font-size: 1em;
+}
+
 /* Contact page */
 
 input,
@@ -88,8 +123,6 @@ main h1 {
 }
 
 /* Store page */
-
-
 
 main h1 {
     position: relative;
