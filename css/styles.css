@@ -6,7 +6,6 @@ h3 {
 
 .menu {
     font-size: 2em;
-    
 }
 
 nav li {
@@ -17,17 +16,7 @@ nav ul {
     padding: 0px;
 }
 
-/* Links */
 
-a {
-    text-decoration: none;
-}
-
-footer {
-    line-height: 100px;
-}
-
-/* Home page */
 .logo {
     display: block;
     margin-left: auto;
@@ -41,36 +30,36 @@ footer {
     background-color: #0a3641;
     color: #fff;
     height: 100px;
+    line-height: 100px;
+    position: relative;
 }
 
-.menu a{
-position: relative;
-margin: 0%;
-padding: 0%;
-line-height: 100px;
+/* Links */
+
+a {
+    text-decoration: none;
 }
+
+/* Home Page */
 
 .explore_button {
     background-color: transparent;
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     position: absolute;
     margin: 0%;
     padding: 0%;
     left: 40%;
-    top: 70%;
+    top: 90%;
     text-transform: uppercase;
-    padding: 50px 40px;
+    padding: 20px 10px;
 }
 
 .home_photo {
-    background-image: url("../images/Home-photo.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    max-height: 60vh;
-    min-width: 195vh;
+    width: 1425px;
+    height: 500px;
+    bottom: 450px;
 }
 
 /* Contact page */
@@ -108,16 +97,41 @@ main h1 {
     left: 40%;
 }
 
-.sandvika, .storo {
+.sandvika {
     background-repeat: no-repeat;
     width: 400px;
     height: 300px;
     position: relative;
-    padding: 0%;
-    left: 22%;
+    left: 15%;
 }
 main h2 {
     position: relative;
-    padding: 0%;
-    left: 26%;
+    left: 20%;
+}
+
+.storo {
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 373px;
+    left: 700px;
+}
+
+.grunerlokka {
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 350px;
+    left: 15%;
+}
+
+.sorlandssenteret {
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 720px;
+    left: 700px;
 }
