@@ -1,5 +1,7 @@
-h1 {
-    
+h1,
+h2,
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .menu {
@@ -44,10 +46,11 @@ a {
     background-color: transparent;
     color: white;
     font-size: 2em;
+    font-weight: 600;
     position: absolute;
     margin: 0%;
     padding: 0%;
-    left: 40%;
+    left: 37%;
     top: 90%;
     text-transform: uppercase;
     padding: 20px 10px;
@@ -95,6 +98,36 @@ a {
     right: 3cm;
     top: 60px;
     font-size: 1em;
+}
+
+.hiker_text {
+    position: relative;
+    left: 9.2cm;
+    bottom: 470px;
+}
+
+.running_text {
+    position: relative;
+    left: 21.2cm;
+    bottom: 989px;
+}
+
+.retro_price {
+    position: relative;
+    left: 5cm;
+    top: 60px;
+}
+
+.hiker_price {
+    position: relative;
+    left: 17.5cm;
+    bottom: 465px;
+}
+
+.running_price {
+    position: relative;
+    left: 30cm;
+    bottom: 990px;
 }
 
 /* Contact page */
