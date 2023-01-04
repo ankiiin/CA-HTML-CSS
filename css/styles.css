@@ -1,7 +1,5 @@
-h1,
-h2,
-h3 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+body {
+    font-family:'Times New Roman', Times, serif;
 }
 
 .logo {
@@ -12,81 +10,56 @@ h3 {
     background-repeat: no-repeat;
 }
 
-.menu {
-    font-size: 2em;
+nav {
+    background-color:#0a3641;
+    margin: 0 auto;
+    height: 70px;
+    width: 1430px;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-nav li {
+.menu a, {
+    background-color:#0a3641;
+    margin: 0 auto;
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    position: absolute;
+    line-height: 80px;
     display: inline;
 }
 
 .home_button {
-    position: relative;
-    left: 10cm;
+    left: 350px;
+    bottom: 0.5px;
 }
 
 .men_button {
-    position: relative;
-    left: 11cm;
+    left: 480px;
+    bottom: 0.5px;
 }
 
 .women_button {
-    position: relative;
-    left: 12cm;
+    left: 590px;
+    bottom: 0.5px;
 }
 
 .about_button {
-    position: relative;
-    left: 13cm;
+    left: 750px;
+    bottom: 0.5px;
 }
 
 .contact_button {
-    position: relative;
-    left: 14cm;
-}
-
-.menu, a, 
-footer {
-    background-color: #0a3641;
-    color: #fff;
-    height: 100px;
-    line-height: 100px;
-    position: relative;
-}
-
-.privacy_button {
-    position: relative;
-    left: 9cm;
-}
-
-.terms_button {
-    position: relative;
-    left: 10cm;
-}
-
-.accesibility_button {
-    position: relative;
-    left: 11cm;
-}
-
-.store_button {
-    position: relative;
-    left: 12cm;
-}
-
-.fa-facebook {
-    position: relative;
-    left: 20.7cm;
-}
-
-.fa-instagram {
-    position: relative;
-    left: 21cm;
-}
-
-.fa-pinterest {
-    position: relative;
-    left: 21.3cm;
+    left: 890px;
+    bottom: 0.5px;
 }
 
 /* Links */
@@ -98,160 +71,12 @@ a {
 
 /* Home Page */
 
-.explore_button {
-    background-color: transparent;
-    color: white;
-    font-size: 2em;
-    font-weight: 600;
-    position: absolute;
-    margin: 0%;
-    padding: 0%;
-    left: 37%;
-    top: 90%;
-    text-transform: uppercase;
-    padding: 20px 10px;
-}
 
-.home_photo {
-    background-repeat: no-repeat;
-    width: 1425px;
-    height: 500px;
-}
 
-.popular_now {
-    position: relative;
-    right: 35%;
-    top: 50px;
-}
+/* Find page */
 
-.retro_jacket {
-    position: relative;
-    background-repeat: no-repeat;
-    width: 360px;
-    padding: 5%;
-    top: 110px;
-}
-
-.hiker_jacket {
-    position: relative;
-    background-repeat: no-repeat;
-    width: 400px;
-    bottom: 490px;
-    left: 35%;
-}
-
-.running_jacket {
-    position: relative;
-    background-repeat: no-repeat;
-    width: 320px;
-    bottom: 1000px;
-    left: 70%;
-}
-
-.retro_text {
-    position: relative;
-    right: 3cm;
-    top: 60px;
+.find_store_text {
     font-size: 1em;
-}
-
-.hiker_text {
-    position: relative;
-    left: 9.2cm;
-    bottom: 470px;
-}
-
-.running_text {
-    position: relative;
-    left: 21.2cm;
-    bottom: 989px;
-}
-
-.retro_price {
-    position: relative;
-    left: 5cm;
-    top: 60px;
-}
-
-.hiker_price {
-    position: relative;
-    left: 17.5cm;
-    bottom: 465px;
-}
-
-.running_price {
-    position: relative;
-    left: 30cm;
-    bottom: 990px;
-}
-
-/* Contact page */
-input,
-select,
-textarea {
-    border: 1px solid #c4c4c4;
-}
-
-main h1 {
-    position: relative;
-    margin: 0%;
-    padding: 0%;
-    left: 26%;
-    font-size: 1.5em;
-}
-
-/* Privacy page, terms page, accesibility page */
-
-main h1 {
-    position: relative;
-    padding: 10%;
-    left: 35%;
-    font-size: 2em;
-}
-
-/* Store page */
-
-main h1 {
-    position: relative;
-    padding: 0%;
-    left: 40%;
-}
-
-.sandvika {
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    position: relative;
-    left: 15%;
-}
-main h2 {
-    position: relative;
-    left: 20%;
-}
-
-.storo {
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    position: relative;
-    bottom: 373px;
-    left: 700px;
-}
-
-.grunerlokka {
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    position: relative;
-    bottom: 350px;
-    left: 15%;
-}
-
-.sorlandssenteret {
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    position: relative;
-    bottom: 720px;
-    left: 700px;
+    margin: 0 auto;
+    padding: 0;
 }
